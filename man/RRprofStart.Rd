@@ -4,7 +4,7 @@
 RRprofStart
 }
 \description{
-GUIprofiler is activated and started
+Rprof() is activated and started
 }
 \usage{
 RRprofStart(filename = "RRprof.out", interval = 0.02, numfiles = 100L, bufsize = 10000L)

@@ -4,7 +4,7 @@
 RRprofStop
 }
 \description{
-Once the R expressions to be profiled have finished, the profile is topped.
+Once the R expressions to be profiled have finished, the profile is stopped.
 }
 \usage{
 RRprofStop()

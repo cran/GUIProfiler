@@ -24,9 +24,11 @@ Name of the html file to be generated
 \details{
 This function generates a profiling report as a html file in the working directory.
 
-The report consists of two main groups of tables: a summary of the called functions with the time spent for each of them and a second group of tables with the time spent on each line of code for each function. 
+The report consists of two main groups of tables: a summary of the called functions with the time spent for each of them and a second group of tables with the time spent on each line of code for each function. Furthermore, it includes a graph of the different hierarchical relationships between the called functions generated using functions in the package 'proftools'.
 
-A convenient implemented feature is that the line numbers of the functions are clickable. If Notepad++ is installed, once a line number is clicked, the corresponding file is opened with the cursor on the selected line.
+In the RStudio environment, this report is shown in the viewer pane. In addition, the markers panel indicates the lines of code where more time was spent to ease the navigation across the source code by simply clicking on them.
+
+When it is opened in a browser, a convenient implemented feature is that the line numbers of the functions are clickable. If Notepad++ is installed, once a line number is clicked, the corresponding file is opened with the cursor on the selected line.
 }
 \author{
 Fernando de Villar and Angel Rubio

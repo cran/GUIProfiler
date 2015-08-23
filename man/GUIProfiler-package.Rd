@@ -3,20 +3,20 @@
 \alias{GUIProfiler}
 \docType{package}
 \title{
-Profiler Graphical User Interface
+Graphical User Interface for Rprof()
 }
 \description{
-GUIProfiler shows graphically the results of profiling R programs by tracking their execution time.
+Show graphically the results of profiling R functions by tracking their execution time.
 }
 \details{
 \tabular{ll}{
 Package: \tab GUIProfiler\cr
 Type: \tab Package\cr
-Version: \tab 0.1.2\cr
-Date: \tab 2014-11-14\cr
+Version: \tab 2.0.1\cr
+Date: \tab 2015-08-23\cr
 License: \tab GPL\cr
 }
-GUIProfiler is an R package that shows graphically the results of profiling R programs by tracking their execution time. This package mimics the behavior of the Matlab profiler: after the code in a file is executed, GUIProfiler generates an HTML report. This HTML report includes information on the time spent on each of the lines of the profiled code and hyperlinks to jump across the included functions. In addition, the code can be edited using Notepad++ (a free editor). The graphical interface makes it easy to identify which are the specific lines that may slow down the code.
+This package mimics the behavior of the Matlab profiler: after the code in a file is executed, it is generated an HTML report. This HTML report includes information on the time spent on each of the lines of the profiled code and hyperlinks to jump across the included functions.  The graphical interface makes it easy to identify which are the specific lines that may slow down the code.
 }
 \author{
 Fernando de Villar and Angel Rubio
